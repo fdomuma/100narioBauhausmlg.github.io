@@ -1,0 +1,39 @@
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #47D496;
+  min-width: 160px;
+  z-index: 1;
+  top: 63px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+#Conoce-dropdown a:hover {
+  color: #ff6d6a;
+  background-color: white
+}
+
+#Programa-dropdown a:hover {
+  color: #f7d917;
+}
+
+#Bauhaus-dropdown a:hover {
+  color: #002b5e;
+  background-color: white
+}
+
+#Organización-dropdown a:hover {
+  color: #9672c4;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

@@ -1,0 +1,38 @@
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 99%;
+        background-color: #f7d917;
+        z-index: 2
+}
+
+    .sticky+.content {
+        padding-top: 60px;
+    }
+
+
+.RRSS-scrolled {
+        display: flex;
+        flex-direction: horizontal;
+        position: fixed;
+        top: 0;
+        width: 99%;
+        z-index: 5;
+        flex-direction: horizontal;
+        padding: 1.5%;
+        text-decoration: none;
+        color: black;
+        transition: 0.6s
+}
+
+.RRSS-scrolled>a{
+	right: 10%;
+	padding-right: 1.5%;
+	text-decoration: none;
+    color: black
+}
+
+.RRSS-scrolled>a:hover{
+	font-size: 1.4em;
+	transition: 0.4s;
+}

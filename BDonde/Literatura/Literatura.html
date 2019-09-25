@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>100nario Bauhaus Málaga</title>
+    <!-- Esta línea de abajo cambia las keywords 
+    <meta property="keywords" content="murió, chandra, bahadur, dangi,, hombre, más, pequeño, del, mundo">
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../Style.css">
+    <link rel="stylesheet" href="../../screen.css">
+    <link rel="stylesheet" href="../../Slideshow.css">
+    <link rel="stylesheet" href="../Sticky navbar.css">
+    <link rel="stylesheet" href="../../Slideshow screen.css">
+    <link rel="stylesheet" href="../../search bar.css">
+    <link rel="stylesheet" href="../menú desplegable.css">
+    <link rel="stylesheet" href="../dropdown-menu.css">
+    <link rel="stylesheet" href="../../pie de página.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html{
+            font-family: Futura, Century Gothic, Arial Narrow; 
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <input type="checkbox" class="checkbox" id="menu-toogle" />
+            <label for="menu-toogle" class="menu-toogle"></label>
+            <nav class="nav">
+                <a href="../../Conoce la Bauhaus/Conoce la Bauhaus.html" class="nav__item">¡Conoce la Bauhaus!</a>
+                <a href="../../Conoce la Bauhaus/Historia/Historia.html" class="nav__item subapartado">Historia</a>
+                <a href="../../Conoce la Bauhaus/Pedagogía/Pedagogía.html" class="nav__item subapartado">Pedagogía</a>
+                <a href="../../Conoce la Bauhaus/Música/Música.html" class="nav__item subapartado">Música</a>
+                <a href="../../Conoce la Bauhaus/Mujeres/Mujeres.html" class="nav__item subapartado">Mujeres</a>
+                <a href="../../Conoce la Bauhaus/Arquitectura/Arquitectura.html" class="nav__item subapartado">Arquitectura</a>
+                <a href="../../Conoce la Bauhaus/Vida en la Bauhaus/Vida en la Bauhaus.html" class="nav__item subapartado">Vida en la Bauhaus</a>
+                <a href="../../Programa/Programa.html" class="nav__item">Programa</a>
+                <a href="../BDonde/BDonde.html" class="nav__item">¡Bauhaus! ¿Dónde?</a>
+                <a href="#" class="nav__item subapartado">Literatura</a>
+                <a href="../../Organización/Organización.html" class="nav__item">Organización</a>
+            </nav>
+        </div>
+        <div id="navbar" class="barrasuperior">
+            <a id="" class="barrasuperior"></a>
+            <div class="barrasuperior dropdown">
+                <a href="../../Conoce la Bauhaus/Conoce la Bauhaus.html" id="Conoce" style="white-space: nowrap;" class="barrasuperior">¡Conoce la Bauhaus!</a>
+                <div id="Conoce-dropdown" class="dropdown-content" style="background-color: #002b5e">
+                    <a href="../../Conoce la Bauhaus/Historia/Historia.html">Historia</a>
+                    <a href="../Conoce la Bauhaus/Pedaogía/Pedagogía.html">Pedagogía</a>
+                    <a href="../../Conoce la Bauhaus/Música/Música.html">Música</a>
+                    <a href="../../Conoce la Bauhaus/Mujeres/Mujeres.html">Mujeres</a>
+                    <a href="../../Conoce la Bauhaus/Arquitectura/Arquitectura.html">Arquitectura</a>
+                    <a href="../../Conoce la Bauhaus/Vida en la Bauhaus/Vida en la Bauhaus.html">Vida en la Bauhaus</a>
+                </div>
+            </div>
+            <div class="barrasuperior dropdown">
+                <a href="../../Programa/Programa.html" id="Programa" class="barrasuperior">programa</a>
+            </div>
+            <div class="barrasuperior dropdown">
+                <a href="../../BDonde/BDonde.html" id="BAUHAUS" class="barrasuperior">¡Bauhaus! ¿Dónde?</a>
+                <div id="Bauhaus-dropdown" class="dropdown-content" style="background-color: #002b5e">
+                    <a href="#">Literatura</a>
+                </div>
+            </div>
+            <div class="barrasuperior dropdown">
+                <a href="../../Organización/Organización.html" id="Organizacion" class="barrasuperior">organización</a>
+                <div id="Organización-dropdown" class="dropdown-content">
+                </div>
+            </div>
+            <a id="" class="barrasuperior">
+                <!--    Desactivadas hasta que haya cuentas
+                <div id="RRSS-insertadas" class="RRSS-scrolled" style="display:none; transition: 0.5s">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+                -->
+            </a>
+        </div>
+        <img src="../../imagenes/Back to the top - Bauhaus.png" onclick="goTopFunction()" id="VueltaArriba" title="Inicio"></img>
+        <script src="../Scrolling functions.js"></script>
+    </header>
+    <main>
+        <article>
+            <div style="margin-top: 100px"></div>
+            <!--  Silencio hasta tener las imágenes -- Desactivar el margen de arriba cuando vuelva a haber slideshow
+            <section style="max-width: 100%">
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img class="img-slide" src="imagenes/Peter Behrens.jpg">
+                        <div class="text">Peter Behrens</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img class="img-slide" src="imagenes/Walter Gropius.jpg">
+                        <div class="text">Walter Gropius</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img class="img-slide" src="imagenes/William Morris.jpg">
+                        <div class="text">William Morris</div>
+                    </div>
+                <br>
+                    <div style="text-align:center">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <script src="Slideshow.js"></script>
+                </div>
+            </section>
+        -->
+            <section style="display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; align-items: flex-start;">
+                <div class="contenedor-izquierdo">
+                    <div class="contenido-izquierdo">
+                        <p><br><br><br><br><br><br><br><br><br><br>
+                            SI NO TE PUEDES MOVER DE CASA… <br><br>
+                            ¡BUENAS NOTICIAS! <br><br>
+                            TAMBIÉN PUEDES ENCONTRAR <br>
+                            A LA BAUHAUS EN LOS LIBROS</p>
+                    </div>
+                </div>
+                <div class="contenedor-derecho">
+                    <div class="contenido-derecho">
+                        <img src="../../imagenes/BDonde/Literatura/Kandinsky.jpg" style="width: 80%; display: block; margin: auto;"></img>
+                    </div>
+                </div>
+            </section>
+            <p class="bloque-completo">
+                Walter Gropius, Internationale Architektur, ed. Albert Langen, Múnich, 1925. <br><br>
+                Paul Klee, Pädagogisches Skizzenbuchen, ed. Albert Langen, Múnich, 1925. <br><br>
+                Adolf Meyer, Ein Versuchshaus des Bauhauses in Weimar, ed. Albert Langen, Múnich, 1925. <br><br>
+                Oskar Schlemmer, László Moholy-Nagy, Farkas Molnár, Die Bühne im Bauhaus, ed. Albert Langen, Múnich, 1925. <br><br>
+                Piet Mondrian, Neue Gestaltung. Neoplastizismus. Nieuwe Beelding, , ed. Albert Langen, Múnich, 1925. <br><br>
+                Theo van Doesburg: Grundbegriffe der neuen gestaltenden Kunst, ed. Albert Langen, Múnich, 1925. <br><br>
+                Walter Gropius: Neue Arbeiten der Bauhauswerkstätten, ed. Albert Langen, Múnich, 1925. <br><br>
+                László Moholy-Nagy: Malerei Photographie Film, ed. Albert Langen, Múnich, 1925. <br><br>
+                Wassily Kandinsky: Punkt und Linie zur Fläche. Beitrag zur Analyse der malerischen Elemente, ed. Albert Langen, Múnich, 1926. <br><br>
+                Jacobus Johannes Pieter Oud: Holländische Architektur, ed. Albert Langen, Múnich, 1926. <br><br>
+                Kasimir Malewitsch: Die gegenstandslose Welt, ed. Albert Langen, Múnich, 1927. <br><br>
+                Walter Gropius: Bauhausbauten Dessau, ed. Albert Langen, Múnich, 1930. <br><br>
+                Albert Gleizes: Kubismus, ed. Albert Langen, Múnich, 1928. <br><br>
+                Laszlo Moholy-Nagy: Von Material zu Architektur, ed. Albert Langen, Múnich, 1929. <br><br>
+            </p>
+            <section style="display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; align-items: flex-start;">
+                <div class="contenedor-izquierdo">
+                    <div class="contenido-izquierdo">
+                        <h1><a href="../../Conoce la Bauhaus/Historia/Historia.html" class="hipervinculo">Sobre la BAUHAUS</a></h1>
+                        <p>Droste, Magdalena, Bauhaus, ed. Taschen, Colonia, 2019. <br><br>
+                            Fiedler, Jeannine; Feier Abend, Peter (ed), Bauhaus, ed. Ullmann, 2013. <br><br>
+                            Herber Bayer; Walter, Gropius; Ise, Gropius, Bauhaus 1919-1928, ed. Harry N. Abrams, 1976. <br><br>
+                            Lupton, Ellen, El ABC de la Bauhaus: La Bauhaus y la teoría del diseño, ed. Gustavo Gili, Barcelona, 2019. <br><br>
+                            Whitford, Frank, La Bauhaus, Destino, Barcelona, 1991. <br><br>
+                            Wingler, Hans Maria, La Bauhaus : Weimar, Dessau, Berlín, 1919-1933, Gustavo Gili, Barcelona, 1980. <br><br>
+                            Wolfe, Tom, La palabra pintada, ¿quién teme al Bauhaus feroz?, ed. Anagrama, 2013.</p>
+                    </div>
+                </div>
+                <div class="contenedor-derecho">
+                    <div class="contenido-derecho">
+                        <h1><a href="../../Conoce la Bauhaus/Mujeres/Mujeres.html" class="hipervinculo">SOBRE MUJERES EN LA BAUHAUS</a></h1>
+                        <p>Muller, Ulrike, Bauhaus Women: Arte, artesanía, diseño, ed. Flammarion, 2009. <br><br>
+                            Hervás y Heras, Josenia, Las mujeres de la Bauhaus: de lo bidimensional al espacio total,ed. Diseño editorial, 2015. <br><br>
+                            Vadillo, Marisa, Las diseñadoras de la Bauhaus: Historia de una revolución silenciosa, ed. Createspace Independent Pub, 2016. <br><br>
+                            Rossler, Patrick, Bauhausmadels. A tribute to pioneering women artists, ed. Taschen Benedikt, Colonia, 2019.</p>
+                    </div>
+                </div>
+            </section>
+            <section style="display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; align-items: flex-stSOBRE MUJERES EN LA BAUHAUSart;">
+                <div class="contenedor-izquierdo">
+                    <div class="contenido-izquierdo">
+                        <h1><a href="../../Conoce la Bauhaus/Pedagogía/Pedagogía.html" class="hipervinculo">SOBRE PEDAGOGÍA EN LA BAUHAUS</a></h1>
+                        <p>Itten, Johannes, Design and form. The Basic Course at the Bauhaus and later, 1963. <br><br>
+                            Kandinsky, Vasili Vasilevich. Cursos de la Bauhaus, Alianza Editorial, Madrid, 2003. <br><br>
+                            Moholy-Nagy, Laszlo, La nueva visión. Principios básicos del Bauhaus, ed. Infinito, Buenos Aires, 1997. <br><br>
+                            Schlemmer, Oskar, Man: teaching notes from the Bauhaus, 1971. <br><br>
+                            Wick, Rainer. Pedagogía de la Bauhaus, Alianza Editorial, Madrid, 1993.</p>
+                    </div>
+                </div>
+                <div class="contenedor-derecho">
+                    <div class="contenido-derecho">
+                        <h1><a href="../../Conoce la Bauhaus/Arquitectura/Arquitectura.html" class="hipervinculo">SOBRE ARQUITECTURA EN LA BAUHAUS</a></h1>
+                        <p>Gropius, Walter. La nueva arquitectura y La Bauhaus, editorial Lumen 1966. <br><br>
+                            Gropius, Walter, Apolo en la democracia, ed. Monte Avila, Caracas, 1968.</p>
+                    </div>
+                    <div>
+                        <h1>SOBRE LA VIDA EN LA BAUHAUS</h1>
+                        <p>Neumann, Eckhard, Bauhaus and Bauhaus People: Personal opinions and recollections of former Bauhaus members and their contemporaries, 1970. <br><br>
+                        Varios, Utopías de la Bauhaus, Edición del Museo Nacional Centro de Arte Reina Sofía, 1988.</p>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <br />
+    <br />
+    <footer id="footer" style="background-color: #002b5e">
+        <section id="pie" style="display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; align-items: flex-start;">
+            <div class="contenedor-pie-izquierdo">
+                <!--
+                <div class="pie-izquierdo">
+                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                </div>
+                -->
+            </div>
+            <div class="contenedor-pie-central">
+                <div class="pie-central">
+                    <img src="../../imagenes/logos/Blanco sin fondo.png" style="width: 80%; display: block; margin: auto">
+                </div>
+            </div>
+            <div class="contenedor-pie-derecho">
+                <!--
+                <div class="pie-derecho">
+                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                </div>
+                -->
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
