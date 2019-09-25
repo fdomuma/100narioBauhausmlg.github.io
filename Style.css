@@ -96,7 +96,9 @@
 }
 
 .contenedor-izquierdo{
-	margin: 7.5%; 
+	margin-top: 3.5%;
+	margin-left: 7.5%;
+	margin-right: 7.5%; 
 	width: 35%; 
 	min-width: 200px
 }
@@ -118,7 +120,9 @@
 }
 
 .contenedor-derecho{
-	margin: 7.5%; 
+	margin-top: 3.5%;
+	margin-left: 7.5%;
+	margin-right: 7.5%; 
 	width: 35%; 
 	min-width: 200px
 }
