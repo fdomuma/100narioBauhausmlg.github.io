@@ -16,7 +16,7 @@
   text-align: left;
 }
 
-#Conoce-dropdown a:hover {
+#Conoce-dropdown a:hover:not(:first-child) {
   color: #ff6d6a;
 }
 
@@ -24,12 +24,16 @@
   color: #f7d917;
 }
 
-#Bauhaus-dropdown a:hover {
+#Bauhaus-dropdown a:hover:not(:first-child) {
   color: #002b5e;
 }
 
 #Organización-dropdown a:hover {
   color: #9672c4;
+}
+
+#Blankentry:hover {
+  background-color: white;
 }
 
 .dropdown:hover .dropdown-content {
