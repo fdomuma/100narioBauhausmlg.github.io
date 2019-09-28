@@ -132,6 +132,30 @@
 
 }
 
+.contenedor-tercio-izquierdo{
+	margin-top: 3.5%;
+	margin-left: 1%;
+	margin-right: 1%; 
+	width: 28%; 
+	min-width: 200px
+}
+
+.contenedor-tercio-central{
+	margin-top: 3.5%;
+	margin-left: 1%;
+	margin-right: 1%; 
+	width: 28%; 
+	min-width: 200px
+}
+
+.contenedor-tercio-derecho{
+	margin-top: 3.5%;
+	margin-left: 1%;
+	margin-right: 1%; 
+	width: 28%; 
+	min-width: 200px
+}
+
 .descripcion{
 	width: auto;
 	margin: auto;
