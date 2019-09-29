@@ -8,7 +8,7 @@
 
 .barrasuperior{
 	width: 99%;
-	color: black;
+	color: #002b5e;
 	font-size: 1em;
 	font-weight: Bold;
 	letter-spacing: 2px;
@@ -88,7 +88,7 @@
 
 #Organizacion:hover{
 	opacity: 1; 
-	border-bottom: 5px solid #9672c4;
+	border-bottom: 5px solid #47D496;
 }
 
 .bloque-completo{
