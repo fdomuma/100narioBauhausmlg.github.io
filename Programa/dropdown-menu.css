@@ -16,7 +16,7 @@
   text-align: left;
 }
 
-#Conoce-dropdown a:hover:not(:first-child) {
+#Conoce-dropdown a:hover {
   color: #ff6d6a;
   background-color: white
 }
@@ -30,7 +30,7 @@
   background-color: white
 }
 
-#Organización-dropdown a:hover:not(:first-child) {
+#Organización-dropdown a:hover {
   color: #9672c4;
 }
 

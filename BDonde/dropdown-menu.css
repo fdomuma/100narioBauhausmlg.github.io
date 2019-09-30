@@ -16,7 +16,7 @@
   text-align: left;
 }
 
-#Conoce-dropdown a:hover:not(:first-child) {
+#Conoce-dropdown a:hover {
   color: #ff6d6a;
   background-color: white
 }
@@ -25,7 +25,7 @@
   color: #f7d917;
 }
 
-#Bauhaus-dropdown a:hover:not(:first-child) {
+#Bauhaus-dropdown a:hover {
   color: #002b5e;
   background-color: white
 }
