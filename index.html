@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="dropdown-menu.css">
     <link rel="stylesheet" href="pie de página.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" style="" type="image/png" href="imagenes/favicon.png"/>
+    <link rel="shortcut icon" style="" type="image/png" href="imagenes/favicon.png" />
     <style>
         html{
 			font-family: Futura, Century Gothic, Arial Narrow; 
@@ -30,6 +30,7 @@
             <input type="checkbox" class="checkbox" id="menu-toogle" />
             <label for="menu-toogle" class="menu-toogle"></label>
             <nav class="nav">
+                <a href="#" class="nav__item">Home</a>
                 <a href="Conoce la Bauhaus/Conoce la Bauhaus.html" class="nav__item">!CONOCE LA BAUHAUS!</a>
                 <a href="Conoce la Bauhaus/Historia/Historia.html" class="nav__item subapartado">Historia</a>
                 <a href="Conoce la Bauhaus/Pedagogía/Pedagogía.html" class="nav__item subapartado">Pedagogía</a>
@@ -40,7 +41,7 @@
             </nav>
         </div>
         <div id="navbar" class="barrasuperior">
-            <a id="" class="barrasuperior"></a>
+            <a id="home" href="" class="barrasuperior"><img id="home" src="imagenes/Home.png" style="display: block; margin: auto; max-height: 40px"></img></a>
             <div class="barrasuperior dropdown">
                 <a href="Conoce la Bauhaus/Conoce la Bauhaus.html" id="Conoce" style="white-space: nowrap;" class="barrasuperior">¡CONOCE LA BAUHAUS!</a>
                 <div id="Conoce-dropdown" class="dropdown-content">
@@ -81,33 +82,8 @@
     <main>
         <article>
             <div style="margin-top: 100px"></div>
-            <!--  Silencio hasta tener las imágenes -- Desactivar el margen de arriba cuando vuelva a haber slideshow
-			<section style="max-width: 100%">
-   				<div class="slideshow-container">
-        			<div class="mySlides fade">
-            			<img class="img-slide" src="imagenes/Peter Behrens.jpg">
-            			<div class="text">Peter Behrens</div>
-        			</div>
-	        		<div class="mySlides fade">
-			            <img class="img-slide" src="imagenes/Walter Gropius.jpg">
-			            <div class="text">Walter Gropius</div>
-			        </div>
-			        <div class="mySlides fade">
-			            <img class="img-slide" src="imagenes/William Morris.jpg">
-			            <div class="text">William Morris</div>
-			        </div>
-		        <br>
-				    <div style="text-align:center">
-				        <span class="dot"></span>
-				        <span class="dot"></span>
-				        <span class="dot"></span>
-				    </div>
-				    <script src="Slideshow.js"></script>
-				</div>
-			</section>
-		-->
             <section>
-                <img src="imagenes/Banner web largo.png" style="width: 100%; height: 265px; margin-top: -5%; display: block;"></img>
+                <img src="imagenes/Banner web largo.png" style="width: 100%; max-height: 265px; margin-top: -5%; display: block;"></img>
             </section>
             <!-- Espacio para los artículos -->
             <section style="display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; align-items: flex-start;">
@@ -145,7 +121,7 @@
                 <!-- Crear clases para 4 imágenes del 25% cada una -->
             </section>
             <section>
-            	<!-- Más en RRSS -->
+                <!-- Más en RRSS -->
             </section>
         </article>
     </main>

@@ -181,3 +181,8 @@ p {
 .fondo-oscuro{
 	color: white;
 }
+
+.talleres{
+	width: 55%; 
+	height: auto;
+}
