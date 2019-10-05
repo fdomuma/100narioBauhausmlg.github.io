@@ -1,6 +1,6 @@
 @media screen and (max-width: 481px){
 
-#Conoce, #Conoce-dropdown, #Programa, #BAUHAUS, #Organizacion {
+#Conoce, #Conoce-dropdown, #Programa, #BAUHAUS, #Organizacion, #Bauhaus-dropdown, #home {
 	display: none
 }
 
@@ -78,8 +78,4 @@
 
 .talleres {
 	width: 100%
-}
-
-#home {
-	display: none
 }

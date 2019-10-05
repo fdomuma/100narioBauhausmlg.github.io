@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+
 .cabecera{
 	width: 100%;
 	margin-top: -4.5%;
@@ -9,6 +12,7 @@
 .barrasuperior{
 	width: 99%;
 	color: #002b5e;
+	font-family:'Century Gothic';
 	font-size: 1em;
 	font-weight: Bold;
 	letter-spacing: 2px;
@@ -33,13 +37,13 @@ p {
 	text-align: justify;
 }
 
-/*
-.img-barrasuperior{
-	max-width: 5%;
-	height: auto;
-	object-fit: scale-down;
+#home {
+	display: block; 
+	margin-top: -1%;
+	margin-left: auto;
+	margin-right: auto; 
+	max-height: 40px;
 }
-*/
 
 .fa-facebook:hover{
 	color: #3C5A99
@@ -163,7 +167,7 @@ p {
 	width: auto;
 	margin: auto;
 	font-size: 0.6em;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 
 .copyright{
