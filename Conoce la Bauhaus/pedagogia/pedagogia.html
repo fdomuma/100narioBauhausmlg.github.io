@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>100nario Bauhaus Málaga</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../Style.css">
+    <link rel="stylesheet" href="../../screen.css">
+    <link rel="stylesheet" href="../../Slideshow.css">
+    <link rel="stylesheet" href="../Sticky navbar.css">
+    <link rel="stylesheet" href="../../Slideshow screen.css">
+    <link rel="stylesheet" href="../menú desplegable.css">
+    <link rel="stylesheet" href="../dropdown-menu.css">
+    <link rel="stylesheet" href="../../pie de página.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" style="" type="image/png" href="imagenes/favicon.png"/>
+    <style>
+        html{
+			font-family: Futura, Century Gothic, Arial Narrow; 
+		}
+		
+	</style>
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <input type="checkbox" class="checkbox" id="menu-toogle" />
+            <label for="menu-toogle" class="menu-toogle"></label>
+            <nav class="nav">
+                <a href="../../index.html" class="nav__item">Inicio</a>
+                <a href="../Conoce la Bauhaus.html" class="nav__item">¡CONOCE LA BAUHAUS!</a>
+                <a href="../Historia/Historia.html" class="nav__item subapartado">Historia</a>
+                <a href="#" class="nav__item subapartado">Pedagogía</a>
+                <a href="../../Programa/Programa.html" class="nav__item">PROGRAMA</a>
+                <a href="../BDonde/BDonde.html" class="nav__item">¿DÓNDE?</a>
+                <a href="../../BDonde/Literatura/Literatura.html" class="nav__item subapartado">Literatura</a>
+                <a href="../../Organización/Organización.html" class="nav__item">ORGANIZACIÓN</a>
+            </nav>
+        </div>
+        <div id="navbar" class="barrasuperior">
+            <a id="home" href="../../index.html" class="barrasuperior"><img id="home" src="../../imagenes/Home.png"></img></a>
+            <div class="barrasuperior dropdown">
+                <a href="../Conoce la Bauhaus.html" id="Conoce" style="white-space: nowrap;" class="barrasuperior">¡CONOCE LA BAUHAUS!</a>
+                <div id="Conoce-dropdown" class="dropdown-content" style="background-color: #ff6d6a">
+                    <a id="Blankentry" style="height: 0px; margin-top: -24px; "></a>
+                    <a href="../Historia/Historia.html">Historia</a>
+                    <a href="#">Pedagogía</a>
+                </div>
+            </div>
+            <div class="barrasuperior dropdown">
+                <a href="../../Programa/Programa.html" id="Programa" class="barrasuperior">PROGRAMA</a>
+            </div>
+            <div class="barrasuperior dropdown">
+                <a href="../../BDonde/BDonde.html" id="BAUHAUS" class="barrasuperior">¿DÓNDE?</a>
+                <div id="Bauhaus-dropdown" class="dropdown-content" style="background-color: #ff6d6a">
+                    <a id="Blankentry" style="height: 0px; margin-top: -24px; "></a>
+                    <a href="../../BDonde/Literatura/Literatura.html">Literatura</a>
+                </div>
+            </div>
+            <div class="barrasuperior dropdown">
+                <a href="../../Organización/Organización.html" id="Organizacion" class="barrasuperior">ORGANIZACIÓN</a>
+                <div id="Organización-dropdown" class="dropdown-content">
+                </div>
+            </div>
+            <a id="" class="barrasuperior">
+                <!--    Desactivadas hasta que haya cuentas
+				<div id="RRSS-insertadas" class="RRSS-scrolled" style="display:none; transition: 0.5s">
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-instagram"></a>
+					<a href="#" class="fa fa-youtube"></a>
+				</div>
+				-->
+            </a>
+        </div>
+        <img src="../../imagenes/Back to the top - Conoce.png" onclick="goTopFunction()" id="VueltaArriba" title="Inicio"></img>
+        <script src="../Scrolling functions.js"></script>
+    </header>
+    <main>
+        <article>
+            <div style="margin-top: 100px"></div>
+              
+            <section style="display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; align-items: flex-start;">
+                <div class="contenedor-izquierdo">
+                    <div class="contenido-izquierdo">
+                        <a href="vorkurs/vorkurs.html"><img src="../../imagenes/pedagogia/vorkurs.gif" style="width: 100%"></a>
+                    </div>
+                </div>
+                <div class="contenedor-derecho">
+                    <div class="contenido-derecho">
+                        <a href="talleres/talleres.html"><img src="../../imagenes/pedagogia/talleres.gif" style="width: 100%"></a>
+                    </div>
+                </div>
+            </section>
+            <p class="bloque-completo" style="width: 75%; margin: auto"></p>
+
+        </article>
+    </main>
+    <br/>
+    <br/>
+    <footer id="footer" style="background-color: #ff6d6a">
+       <section id="pie" style="display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; align-items: flex-start;">
+            <div class="contenedor-pie-izquierdo">
+                <!--
+                <div class="pie-izquierdo">
+                    <ul style="text-align: "><img src="../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                    <ul style="text-align: "><img src="../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                    <ul style="text-align: "><img src="../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                    <ul style="text-align: "><img src="../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                </div>
+                -->
+            </div>
+            <div class="contenedor-pie-central">
+                <div class="pie-central">
+                    <img src="../../imagenes/logos/Blanco y rojo sin fondo.png" style="width: 80%; display: block; margin: auto">
+                </div>
+            </div>
+            <div class="contenedor-pie-derecho">
+                <!--
+                <div class="pie-derecho">
+                    <ul style="text-align: "><img src="../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                    <ul style="text-align: "><img src="../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                    <ul style="text-align: "><img src="../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                    <ul style="text-align: "><img src="../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
+                </div>
+                -->
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
