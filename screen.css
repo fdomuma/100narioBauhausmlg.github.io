@@ -79,3 +79,8 @@
 .talleres {
 	width: 100%
 }
+
+
+.contenedor-tercio-izquierdo, .contenedor-tercio-central, .contenedor-tercio-derecho{
+	width: 90%
+}

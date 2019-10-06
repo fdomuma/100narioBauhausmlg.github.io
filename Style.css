@@ -103,6 +103,11 @@ p {
 	margin-left: 4%;
 }
 
+.programacioncuartos{
+	width: 20%;
+	margin: 1%;
+}
+
 .contenedor-izquierdo{
 	margin-top: 3.5%;
 	margin-left: 7.5%;
@@ -167,7 +172,6 @@ p {
 	width: auto;
 	margin: auto;
 	font-size: 0.6em;
-	text-transform: lowercase;
 }
 
 .copyright{
@@ -189,4 +193,12 @@ p {
 .talleres{
 	width: 55%; 
 	height: auto;
+}
+
+#lehrer{
+	width: auto; 
+	max-height: 470px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	display: block;
 }
