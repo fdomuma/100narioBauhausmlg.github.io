@@ -21,7 +21,17 @@
         html{
             font-family: Futura, Century Gothic, Arial Narrow; 
         }
-        
+
+        @-webkit-keyframes zoom {
+        from {-webkit-transform:scale(0)} 
+        to {-webkit-transform:scale(1)}
+        }
+
+        @keyframes zoom {
+          from {transform:scale(0)} 
+          to {transform:scale(1)}
+        } 
+
     </style>
 </head>
 
@@ -35,7 +45,7 @@
                 <div class="nav__item">¡CONOCE LA BAUHAUS!</div>
                 <a href="../Conoce la Bauhaus/Historia/Historia.html" class="nav__item subapartado">Historia</a>
                 <a href="../Conoce la Bauhaus/pedagogia/pedagogia.html" class="nav__item subapartado">Pedagogía</a>
-                <a href="#" class="nav__item">PROGRAMA</a>
+                <a href="Programa.html" class="nav__item">PROGRAMA</a>
                 <div class="nav__item">¿DÓNDE?</div>
                 <a href="../BDonde/aqui/aqui.html" class="nav__item subapartado">Aquí</a>
                 <a href="../Organización/Organización.html" class="nav__item">ORGANIZACIÓN</a>
@@ -52,7 +62,7 @@
                 </div>
             </div>
             <div class="barrasuperior dropdown">
-                <a href="../Programa.html" id="Programa" class="barrasuperior">PROGRAMA</a>
+                <a href="Programa.html" id="Programa" class="barrasuperior">PROGRAMA</a>
             </div>
             <div class="barrasuperior dropdown">
                 <div style="cursor: default" id="BAUHAUS" class="barrasuperior">¿DÓNDE?</div>
@@ -105,17 +115,17 @@
                 </div>
             </section>
             <section style="width: 85%; margin: auto; display: block;">
-                <img id="modalimg1" src="../imagenes/inicio/img_celebracionbauhaus.jpg" alt="Título" style="width: 300px">
+                <img id="modalimg1" src="../imagenes/programa/fichas/D1. haussommerfeld.jpg">
                 <div id="zoom1" class="modal">
                     <span class="close1">&times;</span>
                     <img class="modal-content" id="img01">
                 </div>
-                <img id="modalimg2" src="../imagenes/inicio/img_celebracionbauhaus.jpg" alt="Título" style="width: 300px">
+                <img id="modalimg2" src="../imagenes/programa/fichas/D3. bauhausdessau.JPG">
                 <div id="zoom2" class="modal">
                     <span class="close2">&times;</span>
                     <img class="modal-content" id="img02">
                 </div>
-                <img id="modalimg3" src="../imagenes/inicio/img_celebracionbauhaus.jpg" alt="Título" style="width: 300px">
+                <img id="modalimg3" src="../imagenes/programa/fichas/D4.carlfieger.jpg">
                 <div id="zoom3" class="modal">
                     <span class="close3">&times;</span>
                     <img class="modal-content" id="img03">
