@@ -81,6 +81,7 @@
 }
 
 
-.contenedor-tercio-izquierdo, .contenedor-tercio-central, .contenedor-tercio-derecho{
-	width: 90%
+.contenedor-tercio-izquierdo, .contenedor-tercio-central, .contenedor-tercio-derecho, 
+.ficha-tercio-izquierdo, .ficha-tercio-central, .ficha-tercio-derecho{
+	width: 90%;
 }

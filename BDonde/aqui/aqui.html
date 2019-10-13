@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../dropdown-menu.css">
     <link rel="stylesheet" href="../../pie de página.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" style="" type="image/png" href="imagenes/favicon.png" />
+    <link rel="shortcut icon" style="" type="image/png" href="../../imagenes/favicon.png" />
     <style>
         html{
             font-family: Futura, Century Gothic, Arial Narrow; 
@@ -31,11 +31,11 @@
             <label for="menu-toogle" class="menu-toogle"></label>
             <nav class="nav">
                 <a href="../../index.html" class="nav__item">Inicio</a>
-                <a href="../../Conoce la Bauhaus/Conoce la Bauhaus.html" class="nav__item">¡CONOCE LA BAUHAUS!</a>
+                <div class="nav__item">¡CONOCE LA BAUHAUS!</div>
                 <a href="../../Conoce la Bauhaus/Historia/Historia.html" class="nav__item subapartado">Historia</a>
                 <a href="../../Conoce la Bauhaus/pedagogia/pedagogia.html" class="nav__item subapartado">Pedagogía</a>
                 <a href="../../Programa/Programa.html" class="nav__item">PROGRAMA</a>
-                <a href="../BDonde/BDonde.html" class="nav__item">¿DÓNDE?</a>
+                <div class="nav__item">¿DÓNDE?</div>
                 <a href="#" class="nav__item subapartado">Aquí</a>
                 <a href="../../Organización/Organización.html" class="nav__item">ORGANIZACIÓN</a>
             </nav>
@@ -43,7 +43,7 @@
         <div id="navbar" class="barrasuperior">
             <a id="home" href="../../index.html" class="barrasuperior"><img id="home" src="../../imagenes/Home.png"></img></a>
             <div class="barrasuperior dropdown">
-                <a href="../../Conoce la Bauhaus/Conoce la Bauhaus.html" id="Conoce" style="white-space: nowrap;" class="barrasuperior">¡CONOCE LA BAUHAUS!</a>
+                <div id="Conoce" style="white-space: nowrap; cursor: default;" class="barrasuperior">¡CONOCE LA BAUHAUS!</div>
                 <div id="Conoce-dropdown" class="dropdown-content" style="background-color: #002b5e">
                     <a id="Blankentry" style="height: 0px; margin-top: -24px; "></a>
                     <a href="../../Conoce la Bauhaus/Historia/Historia.html">Historia</a>
@@ -54,7 +54,7 @@
                 <a href="../../Programa/Programa.html" id="Programa" class="barrasuperior">PROGRAMA</a>
             </div>
             <div class="barrasuperior dropdown">
-                <a href="../../BDonde/BDonde.html" id="BAUHAUS" class="barrasuperior">¿DÓNDE?</a>
+                <div id="BAUHAUS" class="barrasuperior" style="cursor: default;">¿DÓNDE?</div>
                 <div id="Bauhaus-dropdown" class="dropdown-content" style="background-color: #002b5e">
                     <a id="Blankentry" style="height: 0px; margin-top: -24px; "></a>
                     <a href="#">Aquí</a>
@@ -117,31 +117,17 @@
     <br />
     <footer id="footer" style="background-color: #002b5e">
         <section id="pie" style="display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; align-items: flex-start;">
-            <div class="contenedor-pie-izquierdo">
-                <!--
-                <div class="pie-izquierdo">
-                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
-                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
-                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
-                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
-                </div>
-                -->
-            </div>
-            <div class="contenedor-pie-central">
-                <div class="pie-central">
-                    <img src="../../imagenes/logos/Blanco sin fondo.png" style="width: 80%; display: block; margin: auto">
-                </div>
-            </div>
-            <div class="contenedor-pie-derecho">
-                <!--
-                <div class="pie-derecho">
-                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
-                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
-                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
-                    <ul style="text-align: "><img src="../../imagenes/logouma.png" style="height: 30px"> Universidad de Málaga</ul>
-                </div>
-                -->
-            </div>
+           <img src="../../imagenes/instituciones/uma.png" class="img-pie">
+           <img src="../../imagenes/instituciones/vicerrect.png" class="img-pie">
+           <img src="../../imagenes/instituciones/vicedec.png" class="img-pie">
+           <img src="../../imagenes/instituciones/depart.png" class="img-pie">
+           <img src="../../imagenes/instituciones/Diapositiva5.png" class="img-pie">
+           <div style="margin-left: -5%; margin-right: -5%"><img src="../../imagenes/logos/Blanco sin fondo.png" style="width: 80%; display: block; margin: auto;"></div>
+            <img src="../../imagenes/instituciones/Diapositiva6.png" class="img-pie">
+            <img src="../../imagenes/instituciones/Diapositiva7.png" class="img-pie">
+            <img src="../../imagenes/instituciones/Diapositiva8.png" class="img-pie">
+            <img src="../../imagenes/instituciones/Diapositiva9.png" class="img-pie">
+            <img src="../../imagenes/instituciones/Diapositiva10.png" class="img-pie">            
         </section>
     </footer>
 </body>

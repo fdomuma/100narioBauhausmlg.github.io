@@ -37,6 +37,10 @@ p {
 	text-align: justify;
 }
 
+h1, h2, h3 {
+	font-family: Century Gothic
+}
+
 #home {
 	display: block; 
 	margin-top: -1%;
@@ -201,4 +205,16 @@ p {
 	margin-left: auto; 
 	margin-right: auto; 
 	display: block;
+}
+
+.img-pie{
+	max-height: 85px;
+	width: auto; 
+	display: block; 
+	margin: auto;
+}
+
+.organizacion{
+	width: 20%;
+	padding: 2%
 }
