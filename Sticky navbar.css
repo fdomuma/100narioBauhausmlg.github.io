@@ -15,11 +15,12 @@
         display: flex;
         flex-direction: horizontal;
         position: fixed;
-        top: 0;
+        top: 0.55%;
+        right: 1%;
         width: 99%;
         z-index: 5;
         flex-direction: horizontal;
-        padding: 1.5%;
+        padding: 2%;
         text-decoration: none;
         color: black;
         transition: 0.6s
