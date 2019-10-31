@@ -201,7 +201,8 @@ h1, h2, h3 {
 
 #lehrer{
 	width: auto; 
-	max-height: 470px; 
+	max-height: 470px;
+	min-height: 470px; 
 	margin-left: auto; 
 	margin-right: auto; 
 	display: block;
